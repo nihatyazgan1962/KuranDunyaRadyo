@@ -1,0 +1,20 @@
+{
+  "name": "kuran-dunya-radyo",
+  "version": "1.0.0",
+  "description": "KURAN DÜNYA RADYO - Canlı İslami Radyolar ve Ses Kaydedici",
+  "main": "index.html",
+  "author": "Serhat Sarıboğa",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'No build step required for vanilla'",
+    "cap:add": "cap add android",
+    "cap:sync": "cap sync android",
+    "cap:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.4"
+  }
+}

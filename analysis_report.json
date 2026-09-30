@@ -1,0 +1,788 @@
+{
+  "total": 82,
+  "workingCount": 41,
+  "brokenCount": 41,
+  "working": [
+    {
+      "id": "tr-akra-fm",
+      "name": "Akra FM",
+      "arabicName": "إذاعة أكرا إف إم - إسطنبول",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Tasavvuf & Sohbet",
+      "desc": "Mahmud Esad Coşan Hocaefendi sohbetleri, tefsir, hadis ve ilim dersleri.",
+      "streamUrl": "https://stream.radiojar.com/0tpy1h0kxtzuv",
+      "backupUrl": "https://stream.radiojar.com/0tpy1h0kxtzuv",
+      "icon": "fa-star-and-crescent",
+      "featured": true
+    },
+    {
+      "id": "tr-moral-fm",
+      "name": "Moral FM",
+      "arabicName": "إذاعة مورال إف إم",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "İslami Kültür",
+      "desc": "Kur'an kıraatleri, Risale dersleri ve aile odaklı manevi sohbetler.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-heart",
+      "featured": true
+    },
+    {
+      "id": "tr-semerkand-radyo",
+      "name": "Semerkand Radyo",
+      "arabicName": "راديو سمرقند - إسطنبول",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Tasavvuf & Edebiyat",
+      "desc": "Gönül sohbetleri, tasavvuf klasikleri, menkıbeler ve Kur'an-ı Kerim.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-feather-pointed",
+      "featured": true
+    },
+    {
+      "id": "tr-radyo7-kuran",
+      "name": "Radyo 7 – Kur’an Arapça & Meal",
+      "arabicName": "راديو 7 للقرآن والترجمة التركية",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Kur'an & Meal",
+      "desc": "Ayet ayet Arapça tilavet ve ardından anlaşılır Türkçe meali.",
+      "streamUrl": "https://qurango.net/radio/translation_quran_turkish",
+      "backupUrl": "https://qurango.net/radio/translation_quran_turkish",
+      "icon": "fa-book-quran",
+      "featured": true
+    },
+    {
+      "id": "tr-erkam-radyo",
+      "name": "Erkam Radyo",
+      "arabicName": "إذاعة الأرقم - إسطنبول",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Tasavvuf & İrfan",
+      "desc": "Osman Nuri Topbaş Hocaefendi sohbetleri, tasavvuf, siyer ve tefsir programları.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-seedling",
+      "featured": true
+    },
+    {
+      "id": "tr-enderun-fm",
+      "name": "Enderun FM",
+      "arabicName": "إذاعة أندرون إف إم",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "İslami İlim & Kültür",
+      "desc": "Medrese dersleri, fıkıh sohbetleri, kelam ve Kur'an-ı Kerim ziyafeti.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-building-columns",
+      "featured": false
+    },
+    {
+      "id": "tr-bizim-iller",
+      "name": "Bizim İller Radyo",
+      "arabicName": "راديو بيزيم إيلير",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Kültür & Sohbet",
+      "desc": "Anadolu irfanı, manevi ezgiler, dualar ve Kur'an tilavetleri.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-earth-europe",
+      "featured": false
+    },
+    {
+      "id": "tr-baris-radyo",
+      "name": "Barış Radyo",
+      "arabicName": "راديو السلام والقرآن",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Huzur & İslami Kültür",
+      "desc": "İslam barış dinidir temalı sohbetler ve seçkin hafızlardan Kur'an.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-dove",
+      "featured": false
+    },
+    {
+      "id": "tr-ozel-fm",
+      "name": "Özel FM",
+      "arabicName": "إذاعة أوزيل إف إم",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Tematik İslami",
+      "desc": "Tasavvufi sohbetler, ilahiler ve Kur'an-ı Kerim cüzleri.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-star",
+      "featured": false
+    },
+    {
+      "id": "tr-corum-cagri",
+      "name": "Çorum Çağrı FM",
+      "arabicName": "إذاعة جاغري إف إم - تشوروم",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Yerel İslami",
+      "desc": "Çorum ve İç Anadolu bölgesinin manevi sesi.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-radio",
+      "featured": false
+    },
+    {
+      "id": "tr-radyo-gul-kocaeli",
+      "name": "Kocaeli Radyo Gül",
+      "arabicName": "راديو غول - كوجالي",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Gül Bahçesi Sohbetleri",
+      "desc": "Marmara bölgesinin sevilen İslami ezgi ve sohbet radyosu.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-rose",
+      "featured": false
+    },
+    {
+      "id": "tr-nur-radyo",
+      "name": "Nur Radyo",
+      "arabicName": "راديو النور",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Kur'an ve Sünnet",
+      "desc": "Kur'an ve Sünnet ışığında manevi hayat ve ilmi dersler.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-sun",
+      "featured": false
+    },
+    {
+      "id": "tr-radyo7-kuran-meali",
+      "name": "Radyo 7 Kuran Meali",
+      "arabicName": "راديو 7 ترجمة معاني القرآن",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Hatim & Türkçe Meal",
+      "desc": "Kur'an-ı Kerim'in tamamı ayet ayet Türkçe açıklaması ile.",
+      "streamUrl": "https://qurango.net/radio/translation_quran_turkish",
+      "backupUrl": "https://stream.zeno.fm/0tpy1h0kxtzuv",
+      "icon": "fa-language",
+      "featured": true
+    },
+    {
+      "id": "tr-radyo7-tasavvuf",
+      "name": "Radyo 7 Tasavvuf",
+      "arabicName": "رadيو 7 التصوف والموسيقى الروحية",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Tasavvuf & Ney & Kaside",
+      "desc": "Gönülleri dinlendiren ney taksimleri, seçkin tasavvuf musikisi ve kasideler.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-music",
+      "featured": true
+    },
+    {
+      "id": "tr-radyo-genc-ses",
+      "name": "Radyo Genç Ses",
+      "arabicName": "راديو صوت الشباب",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Gençlik & Maneviyat",
+      "desc": "Gençliğe rehberlik eden İslami ve ahlaki yayın akışı.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-microphone-lines",
+      "featured": false
+    },
+    {
+      "id": "tr-radyo-hedef",
+      "name": "Radyo Hedef",
+      "arabicName": "راديو الهدف الإسلامي",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Şuur & Davet",
+      "desc": "Hedefimiz rıza-i ilahi sloganıyla hazırlanan İslami programlar.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-bullseye",
+      "featured": false
+    },
+    {
+      "id": "tr-radyo-tulu",
+      "name": "Radyo Tulu",
+      "arabicName": "راديو طلوع الفجر",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Feyiz & İrfan",
+      "desc": "Maneviyat pınarı sohbetler, dualar ve Kur'an tilavetleri.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-sun",
+      "featured": false
+    },
+    {
+      "id": "tr-ribat-fm-konya",
+      "name": "Ribat FM (Konya)",
+      "arabicName": "إذاعة رباط إف إم - قونية",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "İslami Cihad & İlim",
+      "desc": "Konya Ribat Vakfı resmi radyosu, ilmi dersler, fıkıh ve Kur'an.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-shield-heart",
+      "featured": true
+    },
+    {
+      "id": "tr-tgrt-fm",
+      "name": "TGRT FM",
+      "arabicName": "إذاعة تي جي آر تي إف إم",
+      "countryCode": "tr",
+      "countryName": "Türkiye",
+      "flag": "🇹🇷",
+      "category": "Huzura Doğru & Tarih",
+      "desc": "Huzura Doğru programları, Ehl-i Sünnet büyüklerinin hayatı, menkıbeler ve ilmihal.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://kuranradyo.canliyayin.org/;",
+      "icon": "fa-tv",
+      "featured": true
+    },
+    {
+      "id": "tr-risale-fm",
+      "name": "Risale-i Nur Radyo",
+      "arabicName": "إذاعة رسائل النور - دروس الإيمان",
+      "countryCode": "risale",
+      "countryName": "Risale-i Nur Külliyatı",
+      "flag": "📖",
+      "category": "Risale-i Nur & İman Dersleri",
+      "desc": "Bediüzzaman Said Nursi Hazretleri'nin Risale-i Nur Külliyatı'ndan 7/24 kesintisiz sesli dersler, Sözler, Mektubat ve Lem'alar.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://qurango.net/radio/translation_quran_turkish",
+      "icon": "fa-book-open",
+      "featured": true
+    },
+    {
+      "id": "tr-cevsen-radio",
+      "name": "Cevşen-ül Kebir & Münacat Radyosu",
+      "arabicName": "إذاعة الجوشن الكبير والمناجاة",
+      "countryCode": "risale",
+      "countryName": "Risale-i Nur & Dua",
+      "flag": "🤲",
+      "category": "Cevşen & Zikir",
+      "desc": "Bediüzzaman Said Nursi'nin vird edindiği Cevşen-ül Kebir, Celcelutiye, Tahmidiye ve hıfz duaları.",
+      "streamUrl": "https://qurango.net/radio/athkar_sabah",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-hands-praying",
+      "featured": true
+    },
+    {
+      "id": "tr-nur-dersleri",
+      "name": "İttihad Radyo (Nur Külliyatı)",
+      "arabicName": "إذاعة الاتحاد - رسائل النور",
+      "countryCode": "risale",
+      "countryName": "Türkiye",
+      "flag": "📖",
+      "category": "Sesli Külliyat",
+      "desc": "Asa-yı Musa, Şualar, Mesnevi-i Nuriye ve Tarihçe-i Hayat sesli okumaları.",
+      "streamUrl": "https://qurango.net/radio/translation_quran_turkish",
+      "backupUrl": "https://qurango.net/radio/translation_quran_turkish",
+      "icon": "fa-graduation-cap",
+      "featured": false
+    },
+    {
+      "id": "makkah-live",
+      "name": "Mekke-i Mükerreme Canlı",
+      "arabicName": "إذاعة القرآن الكريم - مكة المكرمة",
+      "countryCode": "sa",
+      "countryName": "Suudi Arabistan",
+      "flag": "🇸🇦",
+      "category": "Canlı Tilavet & Kâbe",
+      "desc": "Kâbe-i Muazzama'dan 7/24 kesintisiz canlı Kur'an-ı Kerim ve namaz yayınları.",
+      "streamUrl": "https://stream.radiojar.com/0tpy1h0kxtzuv",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-kaaba",
+      "featured": true
+    },
+    {
+      "id": "madinah-live",
+      "name": "Medine-i Münevvere Mescid-i Nebevi",
+      "arabicName": "إذاعة الحرم النبوي الشريف",
+      "countryCode": "sa",
+      "countryName": "Suudi Arabistan",
+      "flag": "🇸🇦",
+      "category": "Mescid-i Nebevi",
+      "desc": "Peygamber Efendimiz'in (s.a.v) mescidinden canlı tilavet ve dualar.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://qurango.net/radio/mohammad_ayyub",
+      "icon": "fa-mosque",
+      "featured": true
+    },
+    {
+      "id": "saudi-quran-radio",
+      "name": "Suudi Arabistan Resmi Kur'an Radyosu",
+      "arabicName": "إذاعة القرآن الكريم من المملكة العربية السعودية",
+      "countryCode": "sa",
+      "countryName": "Suudi Arabistan",
+      "flag": "🇸🇦",
+      "category": "Resmi Radyo",
+      "desc": "Riyad merkezli resmi Suudi Arabistan Kur'an-ı Kerim Radyosu.",
+      "streamUrl": "https://qurango.net/radio/salma",
+      "backupUrl": "https://qurango.net/radio/salma",
+      "icon": "fa-radio",
+      "featured": true
+    },
+    {
+      "id": "quran-tarteel",
+      "name": "Dünya Hafızları Hatim Radyosu",
+      "arabicName": "إذاعة ترتيل القرآن الكريم",
+      "countryCode": "sa",
+      "countryName": "Suudi Arabistan",
+      "flag": "🇸🇦",
+      "category": "Hatim & Tertil",
+      "desc": "İslam aleminin en meşhur kurra hafızlarından kesintisiz hatim yayını.",
+      "streamUrl": "https://stream.radiojar.com/0tpy1h0kxtzuv",
+      "backupUrl": "https://stream.radiojar.com/0tpy1h0kxtzuv",
+      "icon": "fa-book-quran",
+      "featured": true
+    },
+    {
+      "id": "sudais-radio",
+      "name": "Şeyh Abdurrahman es-Sudeys",
+      "arabicName": "إذاعة الشيخ عبد الرحمن السديس",
+      "countryCode": "sa",
+      "countryName": "Suudi Arabistan",
+      "flag": "🇸🇦",
+      "category": "Kâbe İmamı",
+      "desc": "Mescid-i Haram İmamı Şeyh Sudeys'in eşsiz ve duygusal kıraatleri.",
+      "streamUrl": "https://qurango.net/radio/abdulrahman_alsudaes",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-sun",
+      "featured": false
+    },
+    {
+      "id": "cairo-quran-radio",
+      "name": "Kahire Kur'an Radyosu (Mısır)",
+      "arabicName": "إذاعة القرآن الكريم من القاهرة",
+      "countryCode": "eg",
+      "countryName": "Mısır",
+      "flag": "🇪🇬",
+      "category": "Klasik Mısır Ekolü",
+      "desc": "Dünyanın ilk Kur'an radyosu; Abdussamed, Mustafa İsmail ve Minşavi ekolü.",
+      "streamUrl": "https://qurango.net/radio/abdulbasit_abdulsamad_mojawwad",
+      "backupUrl": "https://qurango.net/radio/abdulbasit_abdulsamad_mojawwad",
+      "icon": "fa-landmark",
+      "featured": true
+    },
+    {
+      "id": "abdulbasit-radio",
+      "name": "Şeyh Abdussamed Özel Tilavet",
+      "arabicName": "إذاعة القارئ عبد الباسط عبد الصمد",
+      "countryCode": "eg",
+      "countryName": "Mısır",
+      "flag": "🇪🇬",
+      "category": "Hafız Abdussamed",
+      "desc": "Efsane kurra Abdülbasit Abdüssamed'in mücevved ve tertil tüm tilavetleri.",
+      "streamUrl": "https://qurango.net/radio/abdulbasit_abdulsamad_mojawwad",
+      "backupUrl": "https://qurango.net/radio/abdulbasit_abdulsamad_warsh",
+      "icon": "fa-user-tie",
+      "featured": true
+    },
+    {
+      "id": "minshawi-radio",
+      "name": "Şeyh Muhammed Sıddık el-Minşavi",
+      "arabicName": "إذاعة القارئ محمد صديق المنشاوي",
+      "countryCode": "eg",
+      "countryName": "Mısır",
+      "flag": "🇪🇬",
+      "category": "Hafız Minşavi",
+      "desc": "Hüzünlü ve huşu dolu sesiyle meşhur Şeyh Minşavi hatim yayını.",
+      "streamUrl": "https://qurango.net/radio/mohammed_siddiq_alminshawi_mojawwad",
+      "backupUrl": "https://qurango.net/radio/mohammed_siddiq_alminshawi",
+      "icon": "fa-feather",
+      "featured": false
+    },
+    {
+      "id": "husary-radio",
+      "name": "Şeyh Mahmud Halil el-Husari",
+      "arabicName": "إذاعة القارئ محمود خليل الحصري",
+      "countryCode": "eg",
+      "countryName": "Mısır",
+      "flag": "🇪🇬",
+      "category": "Tecvid Üstadı",
+      "desc": "Kur'an tecvid kurallarının referans üstadı Şeyh Husari hatmi.",
+      "streamUrl": "https://qurango.net/radio/mahmoud_khalil_alhussary_mojawwad",
+      "backupUrl": "https://qurango.net/radio/mahmoud_khalil_alhussary",
+      "icon": "fa-gem",
+      "featured": false
+    },
+    {
+      "id": "mustafa-ismail-radio",
+      "name": "Şeyh Mustafa İsmail",
+      "arabicName": "إذاعة الشيخ مصطفى إسماعيل",
+      "countryCode": "eg",
+      "countryName": "Mısır",
+      "flag": "🇪🇬",
+      "category": "Kıraat Ekolü",
+      "desc": "Mısır'ın altın çağı kurralarından Şeyh Mustafa İsmail makam tilavetleri.",
+      "streamUrl": "https://qurango.net/radio/mustafa_ismail",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-award",
+      "featured": false
+    },
+    {
+      "id": "palestine-quran",
+      "name": "Filistin Kur'an Radyosu (Nablus)",
+      "arabicName": "إذاعة القرآن الكريم - نابلس فلسطين",
+      "countryCode": "palestine",
+      "countryName": "Filistin",
+      "flag": "🇵🇸",
+      "category": "Filistin Ekolü",
+      "desc": "Filistin'in köklü Kur'an-ı Kerim radyosu, kıraat ve manevi sohbetler.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-dove",
+      "featured": true
+    },
+    {
+      "id": "mishary-radio",
+      "name": "Şeyh Mişari Raşid el-Afasi",
+      "arabicName": "إذاعة الشيخ مشاري راشد العفاسي",
+      "countryCode": "ae",
+      "countryName": "Kuveyt",
+      "flag": "🇰🇼",
+      "category": "Afasi Özel",
+      "desc": "Dünyaca ünlü Şeyh Mişari el-Afasi'nin en sevilen hatim ve ilahi kayıtları.",
+      "streamUrl": "https://qurango.net/radio/mishary_alafasi",
+      "backupUrl": "https://stream.radiojar.com/0tpy1h0kxtzuv",
+      "icon": "fa-certificate",
+      "featured": true
+    },
+    {
+      "id": "bosnia-bir",
+      "name": "Radio BIR (Bosna Hersek)",
+      "arabicName": "راديو بير - البوسنة والهرسك",
+      "countryCode": "world",
+      "countryName": "Bosna Hersek",
+      "flag": "🇧🇦",
+      "category": "Balkan İslami Radyo",
+      "desc": "Saraybosna İslam Birliği (Rijaset) resmi İslami radyosu ve ilahiler.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-building-columns",
+      "featured": true
+    },
+    {
+      "id": "morocco-mohammed6",
+      "name": "Kral 6. Muhammed Kur'an Radyosu (Fas)",
+      "arabicName": "إذاعة محمد السادس للقرآن الكريم - المغرب",
+      "countryCode": "maghreb",
+      "countryName": "Fas",
+      "flag": "🇲🇦",
+      "category": "Verş Kıraati & Mağrip",
+      "desc": "Meşhur Fas Verş kıraati, tefsir dersleri ve Endülüs İslami mirası.",
+      "streamUrl": "https://qurango.net/radio/abdulbasit_abdulsamad_warsh",
+      "backupUrl": "https://qurango.net/radio/abdulbasit_abdulsamad_warsh",
+      "icon": "fa-compass",
+      "featured": true
+    },
+    {
+      "id": "algeria-quran",
+      "name": "Cezayir Kur'an Radyosu",
+      "arabicName": "إذاعة القرآن الكريم - الجزائر",
+      "countryCode": "maghreb",
+      "countryName": "Cezayir",
+      "flag": "🇩🇿",
+      "category": "Kuzey Afrika Radyosu",
+      "desc": "Cezayir resmi Kur'an radyosu, Mağrip hafızları ve fıkıh dersleri.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-square-rss",
+      "featured": false
+    },
+    {
+      "id": "malaysia-ikim",
+      "name": "IKIM FM (Malezya)",
+      "arabicName": "إذاعة معهد الفهم الإسلامي - ماليزيا",
+      "countryCode": "id",
+      "countryName": "Malezya",
+      "flag": "🇲🇾",
+      "category": "İslami Enstitü Radyosu",
+      "desc": "Malezya İslami Anlayış Enstitüsü resmi Kur'an ve ilmi yayın kanalı.",
+      "streamUrl": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-leaf",
+      "featured": false
+    },
+    {
+      "id": "quran-meal-tr",
+      "name": "Türkçe Kur'an Meali Radyosu",
+      "arabicName": "ترجمة معاني القرآن باللغة التركية",
+      "countryCode": "world",
+      "countryName": "Dünya (Türkçe)",
+      "flag": "🇹🇷",
+      "category": "Ayet & Meal",
+      "desc": "Ayet ayet Arapça tilavet ve ardından anlaşılır Türkçe meali.",
+      "streamUrl": "https://qurango.net/radio/translation_quran_turkish",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-language",
+      "featured": true
+    },
+    {
+      "id": "quran-ruqyah",
+      "name": "Şifa Ayetleri & Rukye Radyosu",
+      "arabicName": "إذاعة الرقية الشرعية للشفاء والسكينة",
+      "countryCode": "world",
+      "countryName": "İslam Dünyası",
+      "flag": "🌍",
+      "category": "Şifa & Maneviyat",
+      "desc": "Huzur, şifa, manevi ferahlık veren Rukye-i Şer'iyye ayetleri.",
+      "streamUrl": "https://qurango.net/radio/roqiah",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-hand-holding-heart",
+      "featured": true
+    },
+    {
+      "id": "quran-adhkar",
+      "name": "Sabah & Akşam Zikirleri Radyosu",
+      "arabicName": "إذاعة أذكار الصباح والمساء والأدعية",
+      "countryCode": "world",
+      "countryName": "İslam Dünyası",
+      "flag": "🌍",
+      "category": "Dua ve Zikir",
+      "desc": "Peygamber Efendimiz'den (s.a.v) rivayet edilen me’sur dualar ve zikirler.",
+      "streamUrl": "https://qurango.net/radio/athkar_sabah",
+      "backupUrl": "https://qurango.net/radio/tarteel",
+      "icon": "fa-hands",
+      "featured": true
+    }
+  ],
+  "broken": [
+    {
+      "name": "Diyanet Kur'an Radyo",
+      "id": "tr-diyanet-kuran",
+      "error": "getaddrinfo ENOTFOUND kuranradyo.canliyayin.org"
+    },
+    {
+      "name": "Diyanet Radyo (Sohbet & İlim)",
+      "id": "tr-diyanet-radyo",
+      "error": "getaddrinfo ENOTFOUND diyanetradyo.canliyayin.org"
+    },
+    {
+      "name": "Diyanet Risalet Radyo",
+      "id": "tr-diyanet-risalet",
+      "error": "getaddrinfo ENOTFOUND risaletradyo.canliyayin.org"
+    },
+    {
+      "name": "Lalegül FM",
+      "id": "tr-lalegul-fm",
+      "error": 404
+    },
+    {
+      "name": "Radyo Feza",
+      "id": "tr-radyo-feza",
+      "error": 404
+    },
+    {
+      "name": "Hilal FM",
+      "id": "tr-hilal-fm",
+      "error": 404
+    },
+    {
+      "name": "Dost FM (Ankara)",
+      "id": "tr-dost-fm",
+      "error": 404
+    },
+    {
+      "name": "Gonca FM",
+      "id": "tr-gonca-fm",
+      "error": 404
+    },
+    {
+      "name": "Dolunay FM",
+      "id": "tr-dolunay-fm",
+      "error": 404
+    },
+    {
+      "name": "Bizim Radyo",
+      "id": "tr-bizim-radyo",
+      "error": 404
+    },
+    {
+      "name": "Bayram FM",
+      "id": "tr-bayram-fm",
+      "error": 404
+    },
+    {
+      "name": "Berat FM",
+      "id": "tr-berat-fm",
+      "error": 404
+    },
+    {
+      "name": "Arkadaş FM",
+      "id": "tr-arkadas-fm",
+      "error": 404
+    },
+    {
+      "name": "Mesaj FM",
+      "id": "tr-mesaj-fm",
+      "error": 404
+    },
+    {
+      "name": "Davet Radyo",
+      "id": "tr-davet-radyo",
+      "error": 404
+    },
+    {
+      "name": "Furkan Radyo (Kayseri)",
+      "id": "tr-furkan-radyo-kayseri",
+      "error": 404
+    },
+    {
+      "name": "Konya İsra FM",
+      "id": "tr-isra-fm-konya",
+      "error": 404
+    },
+    {
+      "name": "Konya Radyo En",
+      "id": "tr-radyo-en-konya",
+      "error": 404
+    },
+    {
+      "name": "Gençliğin Sesi Radyosu",
+      "id": "tr-gencligin-sesi",
+      "error": 404
+    },
+    {
+      "name": "Nur FM",
+      "id": "tr-nur-fm",
+      "error": 404
+    },
+    {
+      "name": "Radyo Denge",
+      "id": "tr-radyo-denge",
+      "error": 404
+    },
+    {
+      "name": "Radyo Fıtrat",
+      "id": "tr-radyo-fitrat",
+      "error": 404
+    },
+    {
+      "name": "Radyo Gençlik",
+      "id": "tr-radyo-genclik",
+      "error": 404
+    },
+    {
+      "name": "Radyo Hayat",
+      "id": "tr-radyo-hayat",
+      "error": 404
+    },
+    {
+      "name": "Radyo Huzur (Malatya)",
+      "id": "tr-radyo-huzur-malatya",
+      "error": 404
+    },
+    {
+      "name": "Radyo Nida",
+      "id": "tr-radyo-nida",
+      "error": 404
+    },
+    {
+      "name": "Radyo Urfa",
+      "id": "tr-radyo-urfa",
+      "error": 404
+    },
+    {
+      "name": "Rahmet FM",
+      "id": "tr-rahmet-fm",
+      "error": 404
+    },
+    {
+      "name": "Şafak Radyo (Kayseri)",
+      "id": "tr-safak-radyo-kayseri",
+      "error": 404
+    },
+    {
+      "name": "Seyr FM",
+      "id": "tr-seyr-fm",
+      "error": 404
+    },
+    {
+      "name": "Umut FM",
+      "id": "tr-umut-fm",
+      "error": 404
+    },
+    {
+      "name": "Dost Radyo (Risale Sohbetleri)",
+      "id": "tr-dost-tv-nur",
+      "error": 404
+    },
+    {
+      "name": "Şeyh Suud eş-Şureym",
+      "id": "shuraim-radio",
+      "error": 404
+    },
+    {
+      "name": "Mescid-i Aksa & Kudüs Radyosu",
+      "id": "palestine-aqsa",
+      "error": 404
+    },
+    {
+      "name": "Şarika Kur'an Radyosu (BAE)",
+      "id": "sharjah-quran",
+      "error": 404
+    },
+    {
+      "name": "Katar Kur'an Radyosu (Doha)",
+      "id": "qatar-quran",
+      "error": 404
+    },
+    {
+      "name": "Kafkas İslam & Kur'an (Azerbaycan)",
+      "id": "azerbaijan-islam",
+      "error": 404
+    },
+    {
+      "name": "Zeytune FM (Tunus)",
+      "id": "tunisia-zitouna",
+      "error": 404
+    },
+    {
+      "name": "Radio Rodja (Endonezya)",
+      "id": "indonesia-rodja",
+      "error": 404
+    },
+    {
+      "name": "Pakistan Kur'an & Naat Radyosu",
+      "id": "pakistan-quran",
+      "error": 404
+    },
+    {
+      "name": "İslam ve Fetva Radyosu",
+      "id": "quran-fatwa-radio",
+      "error": 404
+    }
+  ]
+}

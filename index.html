@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>KURAN DÜNYA RADYO - Küresel İslami Yayın Ağı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="mobile-frame">
+    <!-- App Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <img src="app_icon.jpg" alt="Logo" class="app-logo-img">
+        <div class="title-group">
+          <h1>KURAN DÜNYA RADYO</h1>
+          <span class="subtitle">Geliştirici: <b>Serhat Sarıboğa</b></span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="icon-btn" title="Görünüm Modu"><i class="fa-solid fa-moon"></i></button>
+        <button id="recordListBtn" class="icon-btn badge-container" title="Kayıtlarım">
+          <i class="fa-solid fa-microphone-lines"></i>
+          <span id="recordCountBadge" class="badge">0</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Tabs -->
+    <div class="app-tabs">
+      <button class="tab-btn active" data-tab="player-tab"><i class="fa-solid fa-radio"></i> Canlı Radyo</button>
+      <button class="tab-btn" data-tab="turkey-tab"><i class="fa-solid fa-flag"></i> Türkiye İstasyonları</button>
+      <button class="tab-btn" data-tab="stations-tab"><i class="fa-solid fa-globe"></i> Dünya İstasyonları</button>
+      <button class="tab-btn" data-tab="recordings-tab"><i class="fa-solid fa-compact-disc"></i> Ses Kayıtları</button>
+    </div>
+
+    <main class="app-main">
+      <!-- 1. CANLI RADYO OYNATICI SEKMESİ -->
+      <section id="player-tab" class="tab-pane active">
+        <!-- Visualizer & Live Badge -->
+        <div class="player-hero">
+          <div class="live-pill">
+            <span class="blinking-dot"></span> CANLI YAYIN
+          </div>
+
+          <div class="station-badge" id="playerCountryBadge">
+            <span id="playerCountryFlag">🇹🇷</span> <span id="playerCountryName">Türkiye</span>
+          </div>
+
+          <div class="audio-visualizer-container">
+            <div class="orb-glow"></div>
+            <div class="visualizer-circle">
+              <img src="app_icon.jpg" alt="Radyo" class="player-cover-art" id="playerCoverImg">
+              <div class="sound-wave-canvas" id="waveContainer">
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="station-meta">
+            <h2 id="currentStationTitle">Diyanet Kur'an Radyo</h2>
+            <p id="currentStationCategory" class="arabic-sub">إذاعة ديانت للقرآن الكريم - تركيا</p>
+            <p id="currentStationDesc">T.C. Diyanet İşleri Başkanlığı resmi Kur'an-ı Kerim ve mealli hatim yayını.</p>
+          </div>
+        </div>
+
+        <!-- Recorder Banner / Bar -->
+        <div class="recorder-bar" id="recorderBar">
+          <div class="rec-info">
+            <span class="rec-status-indicator" id="recIndicator"></span>
+            <div class="rec-details">
+              <span id="recStatusText" class="rec-title">Canlı Radyo Kaydı</span>
+              <span id="recTimerText" class="rec-timer">00:00</span>
+            </div>
+          </div>
+          <button id="recToggleBtn" class="rec-action-btn">
+            <i class="fa-solid fa-circle-dot"></i> <span id="recBtnLabel">Yayını Kaydet</span>
+          </button>
+        </div>
+
+        <!-- Player Audio & Controls -->
+        <div class="player-controls-container">
+          <audio id="mainAudio" preload="none" crossorigin="anonymous"></audio>
+          
+          <div class="volume-slider-wrapper">
+            <i class="fa-solid fa-volume-low" id="volIcon"></i>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.85" class="custom-range">
+            <i class="fa-solid fa-volume-high"></i>
+          </div>
+
+          <div class="playback-controls">
+            <button class="control-btn secondary-btn" id="prevStationBtn" title="Önceki İstasyon">
+              <i class="fa-solid fa-backward-step"></i>
+            </button>
+            <button class="control-btn play-btn" id="mainPlayBtn" title="Oynat / Durdur">
+              <i class="fa-solid fa-play" id="playBtnIcon"></i>
+            </button>
+            <button class="control-btn secondary-btn" id="nextStationBtn" title="Sonraki İstasyon">
+              <i class="fa-solid fa-forward-step"></i>
+            </button>
+          </div>
+
+          <div class="extra-controls">
+            <button class="pill-btn" id="sleepTimerBtn"><i class="fa-solid fa-clock"></i> <span id="sleepTimerLabel">Uyku Zamanlayıcı</span></button>
+            <button class="pill-btn" id="favToggleBtn"><i class="fa-regular fa-heart" id="favHeartIcon"></i> Favoriye Ekle</button>
+          </div>
+        </div>
+
+        <!-- Quick Channels -->
+        <div class="quick-countries-slider">
+          <div class="section-sub-header">
+            <h3>Hızlı Kanal Seçimi</h3>
+            <span class="count-tag" id="channelCountTag">26+ Kanal</span>
+          </div>
+          <div class="countries-chips" id="quickChipsContainer">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Developer Credit Footer in Player -->
+        <div class="dev-footer-card">
+          <i class="fa-solid fa-shield-halved dev-icon"></i>
+          <span>KURAN DÜNYA RADYO • Geliştirici: <b>Serhat Sarıboğa</b></span>
+        </div>
+      </section>
+
+      <!-- 2. TÜRKİYE İSTASYONLARI (HABER & İSLAMİ YAYINLAR) -->
+      <section id="turkey-tab" class="tab-pane">
+        <div class="search-filter-box">
+          <div class="country-filter-tabs" id="turkeyFilterChips">
+            <button class="filter-pill active" data-filter="tr-all">🇹🇷 Tümü</button>
+            <button class="filter-pill" data-filter="tr-trt">🏛️ TRT Radyoları</button>
+            <button class="filter-pill" data-filter="tr-diyanet">🕌 Diyanet & Meal</button>
+            <button class="filter-pill" data-filter="tr-haber">📻 Haber & Gündem</button>
+            <button class="filter-pill" data-filter="tr-yoresel">🌾 Yöresel & Türkü</button>
+            <button class="filter-pill" data-filter="tr-risale">📖 Risale-i Nur & İlim</button>
+          </div>
+        </div>
+
+        <div class="stations-grid" id="turkeyStationsListContainer">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+      <!-- 3. DÜNYA VE İSLAM ÜLKELERİ İSTASYON LİSTESİ -->
+      <section id="stations-tab" class="tab-pane">
+        <div class="search-filter-box">
+          <div class="search-input-wrapper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="stationSearchInput" placeholder="Radyo, ülke, hafız, şehir veya kategori ara...">
+            <button id="clearSearchBtn" class="clear-btn"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          
+          <div class="country-filter-tabs" id="countryFiltersBar">
+            <button class="filter-pill active" data-filter="all">Tümü (41 Aktif İstasyon)</button>
+            <button class="filter-pill" data-filter="risale">📖 Risale-i Nur & İman</button>
+            <button class="filter-pill" data-filter="tr">🇹🇷 Türkiye İslami Radyoları</button>
+            <button class="filter-pill" data-filter="sa">🇸🇦 Harameyn</button>
+            <button class="filter-pill" data-filter="palestine">🇵🇸 Filistin & Kudüs</button>
+            <button class="filter-pill" data-filter="eg">🇪🇬 Mısır</button>
+            <button class="filter-pill" data-filter="ae">🇦🇪 Körfez</button>
+            <button class="filter-pill" data-filter="maghreb">🇲🇦 Mağrip (Fas/Cezayir)</button>
+            <button class="filter-pill" data-filter="id">🇮🇩 Asya & Balkanlar</button>
+            <button class="filter-pill" data-filter="world">🌍 Meal & Şifa</button>
+            <button class="filter-pill" data-filter="favorites">❤️ Favorilerim</button>
+          </div>
+        </div>
+
+        <div class="stations-grid" id="stationsListContainer">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+      <!-- 3. KAYITLAR VE ARŞİV SEKMESİ -->
+      <section id="recordings-tab" class="tab-pane">
+        <div class="recordings-header-card">
+          <div class="rec-header-content">
+            <div class="rec-icon-box"><i class="fa-solid fa-microphone-lines"></i></div>
+            <div>
+              <h3>Canlı Radyo Kayıt Arşivi</h3>
+              <p>Radyodan kaydettiğiniz tilavet ve sohbetleri internetsiz dinleyin ve cihazınıza indirin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recordings-list" id="recordingsList">
+          <!-- Populated by JS -->
+          <div class="empty-state" id="emptyRecordings">
+            <i class="fa-solid fa-compact-disc empty-icon"></i>
+            <h4>Henüz kayıt yapılmadı</h4>
+            <p>Canlı radyo oynatıcısındaki <b>"Yayını Kaydet"</b> butonuna basarak dinlediğiniz eşsiz tilavetleri ve sohbetleri cihazınıza kaydedebilirsiniz.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Global Floating Mini Player -->
+    <div class="mini-player" id="miniPlayer">
+      <div class="mini-player-left" id="miniPlayerClickArea">
+        <img src="app_icon.jpg" alt="Cover" class="mini-thumb" id="miniThumb">
+        <div class="mini-info">
+          <span class="mini-title" id="miniTitle">Diyanet Kur'an Radyo</span>
+          <span class="mini-country" id="miniCountry">🇹🇷 Türkiye</span>
+        </div>
+      </div>
+      <div class="mini-player-actions">
+        <button class="mini-btn rec-pulse" id="miniRecBtn" title="Hızlı Kayıt"><i class="fa-solid fa-circle"></i></button>
+        <button class="mini-btn play-mini-btn" id="miniPlayBtn"><i class="fa-solid fa-play" id="miniPlayIcon"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Sleep Timer Modal -->
+  <div class="modal-overlay" id="sleepModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-clock"></i> Uyku Zamanlayıcı</h3>
+        <button class="close-modal-btn" id="closeSleepModal"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <p class="modal-desc">Belirlediğiniz süre sonunda radyo otomatik olarak durur.</p>
+      <div class="timer-options">
+        <button class="timer-btn" data-time="15">15 Dakika</button>
+        <button class="timer-btn" data-time="30">30 Dakika</button>
+        <button class="timer-btn" data-time="45">45 Dakika</button>
+        <button class="timer-btn" data-time="60">60 Dakika</button>
+        <button class="timer-btn" data-time="90">90 Dakika</button>
+        <button class="timer-btn cancel" data-time="0">İptal Et</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="stations.js"></script>
+  <script src="recorder.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

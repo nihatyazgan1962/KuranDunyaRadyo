@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KURAN DÜNYA RADYO</string>
+    <string name="title_activity_main">KURAN DÜNYA RADYO</string>
+    <string name="package_name">com.nihatyazgan.kurandunyaradyo</string>
+    <string name="custom_url_scheme">com.nihatyazgan.kurandunyaradyo</string>
+</resources>
